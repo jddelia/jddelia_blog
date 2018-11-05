@@ -1,0 +1,69 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-image: url('https://images.unsplash.com/photo-1516843451546-33a6a309dece?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=52282671a154dfdcd162a91a6d65f589&auto=format&fit=crop&w=750&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jd-text {
+  font-size: 56px;
+}
+
+@media only screen and (min-width: 900px) {
+  .myNav {
+    margin-left: 40%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  img {
+    display: none;
+  }
+}
+
+.blogCard {
+  transition-duration: .3s; /* delays for 1 second */
+  -webkit-transition-duration: .3s; /* for Safari & Chrome */
+  -moz-transition-duration: .3s;
+}
+
+.blogCard:hover {
+  box-shadow: 1px 3px 10px lightgray;
+}
+
+.blogCard.h3 {
+  font-weight: 300;
+}
+
+.tags {
+  margin-left: 40%;
+}
+
+.cardFooter {
+  padding-bottom: 10px;
+}
+
+.aboutMe p {
+  line-height: 2;
+}
+
+#git {
+  color: #767676;
+  text-shadow: 1px 1px 1px #ccc;
+  font-size: 2.5em;
+}
+
+#gmail {
+  color: #d62d20;
+  text-shadow: 1px 1px 1px #ccc;
+  font-size: 2.5em;
+}
+
+#twitter {
+  color: #00aced;
+  text-shadow: 1px 1px 1px #ccc;
+  font-size: 2.5em;
+}

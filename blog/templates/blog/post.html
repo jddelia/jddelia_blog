@@ -1,0 +1,15 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+  <div class="row justify-content-center ml-2 mt-4 border blogCard">
+    <div class="col-10">
+      <h3 class="border-bottom" style="font-weight: 300;">{{ post.title }}</h3>
+      <img width="550" height="250" class="mt-4 mb-4 border"
+      src="{{ post.image }}"
+      alt="hello world text">
+      <p>{{ post.content|safe }}</p>
+      <div class="cardFooter">
+        <small class="border-top">{{ post.date_posted }}</small>
+      </div>
+    </div>
+  </div>
+{% endblock content %}
