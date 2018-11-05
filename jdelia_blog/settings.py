@@ -83,7 +83,7 @@ DATABASES = {
         'NAME': 'jddelia_blog',
         'USER': 'jddelia',
         'PASSWORD': 'frostfire1',
-        'HOST': '',
+        'HOST': 'localhost',
         'PORT': '',
     }
 }
