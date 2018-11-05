@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '8a4np&f2-s27d69lqr&-bgdmvvq=+e
 # DEBUG = True
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
-ALLOWED_HOSTS = ['https://jdeliablog.herokuapp.com/']
+ALLOWED_HOSTS = ['jdeliablog.herokuapp.com']
 
 
 # Application definition
