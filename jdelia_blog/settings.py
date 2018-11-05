@@ -24,10 +24,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '8a4np&f2-s27d69lqr&-bgdmvvq=+e9*3ow1fasrt+t!8#g8yh')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
-DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
+DEBUG = False
+# DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
-ALLOWED_HOSTS = ['jdeliablog.herokuapp.com']
+ALLOWED_HOSTS = ['jdeliablog.herokuapp.com', 'www.jdeliablog.com']
 
 
 # Application definition
